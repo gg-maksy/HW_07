@@ -33,7 +33,7 @@ def del_empty_folders(lst:list):
 
 def get_extention(dct:dict):
 
-    with open('format.txt', 'r') as fd:
+    with open('clean_folder/format.txt', 'r') as fd:
         line = fd.readline()
         while line:
 
